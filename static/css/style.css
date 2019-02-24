@@ -390,3 +390,29 @@ span {}
     right: 2px;
     transition: opacity .2s linear;
 }
+
+@media screen and (max-width: 950px) and (min-width: 601px){
+  .fig,.name {
+    width: 100%;
+  }
+  .name {
+    min-height: 68px;
+  }
+  .team.away {
+    display: -webkit-box !important;
+    display: -moz-box !important;
+    display: box !important;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+
+  }
+  .away .fig {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    box-ordinal-group: 2;  }
+  .away .name {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    box-ordinal-group: 1;  }
+}
